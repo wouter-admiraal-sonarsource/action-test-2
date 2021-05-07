@@ -1,3 +1,3 @@
 FROM alpine:latest
 
-ENTRYPOINT [echo, "Howdy", > log.txt]
+CMD echo "Howdy" > log.txt
